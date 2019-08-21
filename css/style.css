@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+
+/*--------------------------
+     common 
+--------------------------*/
+
+html{
+	font-size: 62.5%; 
+    color: aqua
+}
+
+body{
+	height: 80vh;
+    width: 100vw;
+    margin: 0;
+	background-color: #53c0d8;
+	color: yellow;
+    font-family: "Sawarabi Mincho"; 
+	font-weight: lighter;
+    font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+a{
+    text-sytle: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.add-bk{
+    display: block;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-active{
+    display: block;
+}
+
+
+
+
+
+/*--------------------------
+    title
+--------------------------*/
+
+
+header h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin: 50px 0 160px;
+}
+
+.title-info{
+    font-size: 1rem;
+    color: #fff;
+    display: inherit;
+}
+
+
+/*--------------------------
+     section
+--------------------------*/
+
+.wrapper_contents{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content{
+    position: relative;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+
+.icon-radius{
+    padding-top: 56px;
+    background-color: white;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+
+.section-font{
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+.effect_content{
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: #53c0d8;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/*--------------------------
+   Profile
+--------------------------*/
+
+
+.profile-info{
+    padding: 10px;
+}
+
+.profile-info>h1,.profile-info>h2,
+.profile-info>p{
+    padding-bottom: 5px;
+}
+
+
+/*--------------------------
+    Career
+--------------------------*/
+
+.career-info{
+    padding: 10px;
+}
+
+.career-info>h1,.career-info>h2,
+.career-info>p{
+    padding-bottom: 5px;
+}
+
+
+/*--------------------------
+    Portfolio
+--------------------------*/
+
+
+.portfolio-info{
+    padding: 10px;
+}
+
+.portfolio-info>h1,.portfolio-info>h2,
+.portfolio-info>p{
+    padding-bottom: 5px;
+}
+
+.portfolio-info>h1{
+    padding-bottom: 10px;
+}
+
+.portfolio-info>p{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
